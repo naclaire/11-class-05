@@ -78,6 +78,7 @@ a{
     }
     details li{
         display: flex;
+        padding:2%;
     }
     details a{
         color:white;
