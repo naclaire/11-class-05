@@ -308,5 +308,30 @@ a {
    .about q{
       font-size:16px;
    }
+    .features{
+      align-items: center;
+    }
+    .features > article{
+      flex-direction: row;
+      width:96%;
+      justify-content: space-betweeng;
+      column-gap: 2vh;
+      padding:0;
+    }
+    .features > blockquote{
+      padding-left:10%;
+      padding-right:10%;
+
+    }
+    .features a{
+      width:24%;
+      text-align: center;
+      align-items: center;
+    }
+    .features h3{
+      width:70%;
+      font-size:16px;
+    }
+    
     
 }
